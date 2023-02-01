@@ -1,0 +1,68 @@
+:root {
+  font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+}
+.container {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+.equil {
+  width: 100%;
+  border-radius: 10px;
+}
+.nft-container {
+}
+.nft-container h3 {
+  color: hsl(0, 0%, 100%);
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.justify-start {
+  justify-content: start;
+  gap: 10px;
+}
+h4 {
+  color: hsl(178, 100%, 50%);
+}
+time {
+  color: hsl(215, 51%, 70%);
+}
+.line {
+  background-color: hsl(215, 32%, 27%);
+  width: 100%;
+  height: 2px;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 600px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
